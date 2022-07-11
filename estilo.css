@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fcf8f8;
+}
+
+/* ====== CONTAINER PRINCIPAL =======*/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px 5px 5px 5px;
+    background: #fcf8f8;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, Arial;;
+}
+
+/* ====== IMAGEM DO CELULAR =======*/
+#celular {
+    margin-right: 30px;
+}
+
+/* ====== PARTE QUE O USUÁRIO INTERAGE (LOGIN, SENHA, ...) =======*/
+.interacao_usuario {
+    margin-top: 10px;
+}
+
+.login {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(221, 213, 213, 0.8);
+    padding: 10px 35px 10px 35px;
+    background: #ffffff;
+}
+
+#logo_instagram {
+    margin: 35px auto 30px auto;
+}
+
+.inputs {   
+    border: none; 
+    margin: 5px;
+    width: 280px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid rgba(221, 213, 213, 0.8);
+    opacity: 0.85;
+    text-indent: 10px;
+    
+}
+
+#input_user {
+    margin: 5px auto 8px auto;       
+}
+
+#input_senha {
+    margin: 0 auto 5px auto;    
+}
+
+#botao_entrar {
+    margin: 10px auto 0 auto;
+    color: white;
+    background: rgba(2, 195, 253, 0.7);
+    opacity: 0.55;   
+    height: 30px;  
+}
+
+#botao_entrar:hover {
+    background: rgba(0, 133, 173, 0.7);
+}
+
+#linha_ou {
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    margin: 8px auto 0 auto;
+    text-align: center;
+    width: 280px;
+    opacity: 0.45;
+}
+
+#linha_ou legend {
+    padding: 10px;
+    background: #ffffff;
+}
+
+#link_facebook {
+    display: block;
+    margin: 5px auto 20px auto;
+    font-weight: 500;
+    color:rgba(0, 19, 94, 0.9)
+}
+
+#link_forget_senha {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 450;
+    color:rgba(0, 19, 94, 0.9)
+}
+
+/* ====== CADASTRO =======*/
+#cadastro {
+    border: none;
+    display: flex;
+    border: 1px solid rgba(221, 213, 213, 0.8);
+    margin: 10px auto 10px auto;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    background: #ffffff;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+#cadastro a {
+    color:rgba(1, 170, 221, 0.9);
+    font-weight: 600;
+}
+
+/* ====== CONTAINER PRINCIPAL =======*/
+#get_app {
+    margin-top: 15px;
+}
+
+#get_app p {
+    opacity: 0.9;
+}
+
+.logo_app {
+    height: 40px;
+    margin: 20px auto 20px auto;
+}
+
+/* ====== LINKS FINAL DA PÁGINA =======*/
+.links {
+    margin: 50px auto 10px auto;
+    width: 75vw;
+    text-align: center;
+    
+}
+
+.links a {
+    color:#52505091;
+    font-weight: 500;
+    font-family: sans-serif, Arial, Helvetica, serif;
+    font-size: 12px;
+    padding: 80px 6px 6px 6px;
+}
+
+#final {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#final p {
+    margin-right: 20px;
+    color:#52505091;
+    font-weight: 500;
+    font-family: sans-serif, Arial, Helvetica, serif;
+    font-size: 13px;
+}
